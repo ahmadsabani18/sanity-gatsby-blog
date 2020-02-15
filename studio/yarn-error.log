@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\bani\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn add sanity-plugin-seo-tools --json --non-interactive --ignore-engines --registry https://registry.npmjs.org
+
+PATH: 
+  C:\Users\bani\AppData\Roaming\npm\node_modules\vendor;C:\Users\bani\AppData\Local\Chromium\Application;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\bani\AppData\Local\Microsoft\WindowsApps;C:\Users\bani\AppData\Roaming\npm;C:\Users\bani\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  12.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/react-icons/-/react-icons-2.2.7.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\bani\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn:133816:19)
+      at Object.onceWrapper (events.js:427:28)
+      at ClientRequest.emit (events.js:321:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:714:9)
+      at Object.onceWrapper (events.js:427:28)
+      at TLSSocket.emit (events.js:321:20)
+      at TLSSocket.Socket._onTimeout (net.js:478:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "private": true,
+    "name": "sanity-gatsby-blog-studio",
+    "version": "1.0.5",
+    "main": "package.json",
+    "author": "Sanity <hello@sanity.io>",
+    "scripts": {
+      "dev": "sanity start",
+      "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
+      "build": "sanity build",
+      "graphql-deploy": "sanity graphql deploy --playground",
+      "lint": "eslint .",
+      "test": "sanity check"
+    },
+    "dependencies": {
+      "@sanity/base": "^0.147",
+      "@sanity/cli": "^0.147",
+      "@sanity/components": "^0.147",
+      "@sanity/core": "^0.147",
+      "@sanity/dashboard": "^0.147",
+      "@sanity/default-layout": "^0.147",
+      "@sanity/default-login": "^0.147",
+      "@sanity/desk-tool": "^0.147",
+      "@sanity/studio-hints": "^0.147",
+      "date-fns": "^1.30.1",
+      "prop-types": "^15.7.2",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "sanity-plugin-dashboard-widget-document-list": "^0.0.9",
+      "sanity-plugin-dashboard-widget-netlify": "^1.0.1"
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.0.1",
+      "eslint": "^5.16.0",
+      "eslint-config-standard": "^12.0.0",
+      "eslint-config-standard-react": "^7.0.2",
+      "eslint-plugin-import": "^2.17.3",
+      "eslint-plugin-node": "^9.1.0",
+      "eslint-plugin-promise": "^4.1.1",
+      "eslint-plugin-react": "^7.13.0",
+      "eslint-plugin-standard": "^4.0.0",
+      "prettier-eslint-cli": "^4.7.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
